@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import API from "../api/axios";
 import { DragDropContext, Droppable, Draggable,} from "@hello-pangea/dnd";
-import Footer from "../components/Footer";
 import Comments from "../components/Comments";
 
 export default function ProjectDetails() {
@@ -552,7 +551,6 @@ return (
     </div>
   </div>
 )}
-    <Footer />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import API from "../api/axios";
 import { Link,useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
 
 export default function Register() {
   const [name, setName] = useState("");
@@ -84,7 +83,6 @@ export default function Register() {
       </div>
       
     </div>
-    <Footer />
     </div>
   );
 }

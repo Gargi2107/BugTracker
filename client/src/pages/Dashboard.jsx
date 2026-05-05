@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../api/axios";
 import {useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
 
 export default function Dashboard() {
   const [projects, setProjects] = useState([]);
@@ -171,7 +170,6 @@ export default function Dashboard() {
       
 
     </div>
-    <Footer />
     </div>
   );
 }

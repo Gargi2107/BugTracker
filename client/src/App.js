@@ -4,6 +4,8 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import MyTickets from "./pages/MyTickets";
+import Footer from "./components/Footer";
+import Chatbot from "./components/Chatbot";
 import ProjectDetails from "./pages/ProjectDetails";
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
+      <Chatbot />
+      <Footer />
     </BrowserRouter>
   );
 }

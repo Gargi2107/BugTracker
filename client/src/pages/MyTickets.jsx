@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import API from "../api/axios";
 import {useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
 
 export default function MyTickets() {
   const [tickets, setTickets] = useState([]);
@@ -85,7 +84,6 @@ export default function MyTickets() {
     </div>
     
     </div>
-    <Footer />
     </div>
 
   );

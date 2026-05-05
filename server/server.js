@@ -15,6 +15,7 @@ app.use("/api/auth", require("./routes/authRoutes.js"));
 app.use("/api/projects", require("./routes/projectRoutes.js"));
 app.use("/api/tickets", require("./routes/ticketRoutes.js"));
 app.use("/api/comments", require("./routes/commentRoutes.js"));
+app.use("/api/chat", require("./routes/chat"));
 
 app.get("/", (req, res) => {
   res.send("API Running");
